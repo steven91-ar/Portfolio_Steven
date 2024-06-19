@@ -262,6 +262,12 @@ body{
   margin-bottom: 20px;
 }
 
+.skills .content .col-left p, ul{
+  font-size: 1.2em;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
 .skills .content .col-right{
   position: relative;
   width: 46%;
@@ -376,6 +382,15 @@ body{
   flex-direction: column;
   box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
   border-radius: 10px;
+}
+
+.services h3{
+  font-size: 1.4em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.services p{
+  font-size: 1em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .services .content .card .service-icon{
