@@ -653,7 +653,7 @@ body{
     background: #fff;
     top: 0;
     right: 0;
-    width: 380px;
+    width: 300px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -822,7 +822,7 @@ body{
     }
   
     header .navigation.active {
-      width: 80%;
+      width: 250px;
     }
   
     .main .content h2 {
@@ -857,12 +857,21 @@ body{
     }
   
     header .navigation.active {
-      width: 380px;
+      width: 220px;
+      right: 0;
+    left: auto;
+    height: 100%;
+    }
+    header .navigation a {
+      font-size: 0.9em;
+      margin: 6px;
+      padding: 0 10px;
     }
   
     .menu-btn {
-      margin: 0 20px;
+      display: block;
     }
+    
   
     .main .content h2 {
       font-size: 1em;
